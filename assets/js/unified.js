@@ -826,14 +826,16 @@ class SOSCISPApp {
     }
 
     async stopAudioRecording() {
+        /*
         if (this.audioRecorder && this.isRecording) {
             this.audioRecorder.stop();
-            this.audioRecorder.stream.getTracks().forEach(track => track.stop());
+            this.audiorecorder.stream.getTracks().forEach(track => track.stop());
 
             this.isRecording = false;
             document.getElementById('audio-btn-text').textContent = 'Iniciar Gravação';
             document.getElementById('record-audio-btn').classList.remove('recording');
         }
+        */
     }
 
     async sendAudioMessage(audioBlob) {
